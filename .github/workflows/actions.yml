@@ -11,4 +11,6 @@ jobs:
       - run: |
           iwr -useb get.scoop.sh | iex
           scoop install hub
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           ./bin/auto-pr.ps1 -p
