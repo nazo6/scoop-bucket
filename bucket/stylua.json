@@ -1,13 +1,13 @@
 {
-  "version": "0.10.0",
-  "description": "An opinionated Lua code formatter",
-  "homepage": "https://github.com/JohnnyMorganz/StyLua",
-  "license": "MPL-2.0",
-  "url": "https://github.com/JohnnyMorganz/StyLua/releases/download/v0.10.0/stylua-0.10.0-win64.zip",
-  "hash": "",
-  "bin": ["stylua.exe"],
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://github.com/JohnnyMorganz/StyLua/releases/download/v$version/stylua-$version-win64.zip"
-  }
+    "version": "0.10.1",
+    "description": "An opinionated Lua code formatter",
+    "homepage": "https://github.com/JohnnyMorganz/StyLua",
+    "license": "MPL-2.0",
+    "url": "https://github.com/JohnnyMorganz/StyLua/releases/download/v0.10.1/stylua-0.10.1-win64.zip",
+    "hash": "d467c43d5834f41c8cb0c177c06c08b482737afee83e1639e09fc1e792ddb02b",
+    "bin": "stylua.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/JohnnyMorganz/StyLua/releases/download/v$version/stylua-$version-win64.zip"
+    }
 }
