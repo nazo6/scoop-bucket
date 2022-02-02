@@ -1,0 +1,15 @@
+{
+  "version": "nightly",
+  "description": "wezterm nightly build",
+  "homepage": "https://github.com/vlang/v",
+  "license": "MIT",
+  "url": "https://github.com/wez/wezterm/releases/download/nightly/WezTerm-windows-nightly.zip",
+  "pre_install": "cd $dir && mv $dir/WezTerm-* ./WezTerm",
+  "bin": "WezTerm/wezterm.exe",
+  "shortcuts": [
+    [
+      "WezTerm/wezterm-gui.exe",
+      "Wezterm (nightly)"
+    ]
+  ]
+}
