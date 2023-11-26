@@ -1,16 +1,16 @@
 {
-  "version": "2.6.0",
-  "description": "bob",
-  "homepage": "https://github.com/MordechaiHadad/bob",
-  "license": "MIT",
-  "checkver": "github",
-  "autoupdate": {
-    "architecture": {
-      "64bit": {
-        "url": "https://github.com/MordechaiHadad/bob/releases/download/v$version/bob-windows-x86_64.zip"
-      }
-    }
-  },
-  "url": "https://github.com/MordechaiHadad/bob/releases/download/v2.5.0/bob-windows-x86_64.zip",
-  "bin": "bob.exe"
+    "version": "2.7.0",
+    "description": "bob",
+    "homepage": "https://github.com/MordechaiHadad/bob",
+    "license": "MIT",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/MordechaiHadad/bob/releases/download/v$version/bob-windows-x86_64.zip"
+            }
+        }
+    },
+    "url": "https://github.com/MordechaiHadad/bob/releases/download/v2.5.0/bob-windows-x86_64.zip",
+    "bin": "bob.exe"
 }
