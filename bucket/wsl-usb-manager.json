@@ -13,7 +13,8 @@
 	},
 	"architecture": {
 		"64bit": {
-			"url": "https://github.com/nickbeth/wsl-usb-manager/releases/download/v1.2.0/wsl-usb-manager.exe"
+			"url": "https://github.com/nickbeth/wsl-usb-manager/releases/download/v1.2.0/wsl-usb-manager.exe",
+			"hash": ""
 		}
 	},
 	"shortcuts": [["wsl-usb-manager.exe", "wsl-usb-manager"]]
