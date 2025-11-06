@@ -1,0 +1,22 @@
+{
+  "version": "0.45",
+  "description": "wsl-usb-manager",
+  "homepage": "https://github.com/nickbeth/wsl-usb-manager",
+  "license": "MIT",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/nickbeth/wsl-usb-manager/releases/download/v$version/wsl-usb-manager.exe"
+      }
+    }
+  },
+  "url": "https://github.com/nickbeth/wsl-usb-manager/releases/download/v1.2.1/wsl-usb-manager.exe",
+  "hash": "20508713b79b6c46742dd91f72a757146e2b2a53a938a33af75028d501fdf352",
+  "shortcuts": [
+    [
+      "wsl-usb-manager.exe",
+      "wsl-usb-manager"
+    ]
+  ]
+}
